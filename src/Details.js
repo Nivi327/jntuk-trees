@@ -1,6 +1,6 @@
 import JNTUK from './assets/Jntuk-logo.png';
 
-const Details = ({image, name, age, area, height, latitude, longitude, plantationYear, oxygenReleased}) => {
+const Details = ({image, name, age, area, height, latitude, longitude, plantationYear, oxygenReleased, audio}) => {
     return (<section className="outer-section">
         <nav>
             <div className="nav-header">
@@ -54,7 +54,7 @@ const Details = ({image, name, age, area, height, latitude, longitude, plantatio
         </div>
         <div className="description">
             <h2>Description: </h2>
-            <audio controls src={Audio} />
+            <audio controls src={audio} />
         </div>
     </section>
     )

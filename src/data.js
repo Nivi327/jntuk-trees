@@ -1,10 +1,12 @@
-import Dup from './assets/tree-logo.jpg';
+import tree1 from './assets/1.jpeg';
+import audio1 from './assets/audio1.aac';
+
 // import Audio from './assets/--audio-name---';
 
 const Array = [
     {
-        "Audio": ""/*Audio */,
-        "ImageURL": Dup,
+        "Audio": audio1,
+        "ImageURL": tree1,
         "Name": "Mango Tree",
         "Area": 22,
         "Age": 12,

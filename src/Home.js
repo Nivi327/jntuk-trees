@@ -7,7 +7,7 @@ function Home() {
     <div className="App">
         {
             Array.map((obj, idx) => {
-              return <Link to={`tree-${idx+1}`}>Tree-{idx+1}</Link>
+              return <Link key={idx} to={`tree-${idx+1}`}>Tree-{idx+1}</Link>
             })
           }
     </div>

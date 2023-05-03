@@ -11,7 +11,7 @@ function App() {
           <Route path='/' element={<Home/>} />
           {
             Array.map((obj, idx) => {
-              return <Route path={`/tree-${idx+1}`} element={<Details 
+              return <Route key={idx} path={`/tree-${idx+1}`} element={<Details 
                 audio={obj.Audio}
                 image={obj.ImageURL} 
                 name={obj.Name} 

@@ -61,12 +61,14 @@
 @media screen and (max-width: 1080px) and (min-width: 870px) {
   .outer-section {
       width: 80%;
+      margin: 0 auto;
   }
 }
 @media screen and (max-width: 870px) {
   .outer-section {
       width: 99%;
       padding: 0.5rem 0.1rem;
+      margin: 0 auto;
   }
   .details { 
       width: 100%;
